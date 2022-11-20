@@ -1,2 +1,0 @@
-# LinkTree
-all my links ;)
