@@ -8,7 +8,6 @@
     
 }
 
-
 html, body {
     margin: 0;
     height: 100%;
@@ -65,7 +64,7 @@ body {
     cursor: pointer;
     position: relative;
     
-  }
+}
 
 .div .p > p {
     letter-spacing: 3px;
@@ -88,23 +87,11 @@ body {
     margin-left: -25px;
 }
     
-
-    
-    
-    
-    
-
 .div .div-img > img{
     width: 60px;
 }
   
-  /*.divIG .btn{
-    display: none;
-    
-   
-  }*/
-  
-  .div:hover{
+.div:hover{
     z-index: 2;
     -webkit-transition: all 200ms ease-in;
     -webkit-transform: scale(1.1);
@@ -114,15 +101,8 @@ body {
     -moz-transform: scale(1.1);
     transition: all 200ms ease-in;
     transform: scale(1.1);
-  }
+}
   
-  /*.divIG:hover .btn{
-    display:block;
-  }*/
-    
-
-
-
 #parag {
     height: 20px;
     color: rgb(200, 200, 200);;
