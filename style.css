@@ -31,15 +31,16 @@ body {
 
 .desc > p {
     color: rgb(192, 145, 236);
-    font-size: 40px;
+    font-size: 70px;
     margin-bottom: 60px;
-    font-family: 'Alexandria', sans-serif;
+    font-family: 'Moirai One', cursive;
 }
 
 .desc > img {
     border-radius: 100%;
     width: 17rem;
     height: 17rem;
+    transition: 200ms;
 }
 
 .desc {
@@ -66,7 +67,7 @@ body {
 
 .div .p > p {
     letter-spacing: 3px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: rgb(207, 215, 221);
     text-justify: auto;
     margin-top: 0px;
@@ -119,7 +120,15 @@ body {
     .div{width: 70%;}
 }
 
+@media (max-width: 640px) {
+    .desc img{
+        height: 14rem;
+        width: 14rem;
+    }
+}
+
 @media screen and (max-width: 320px) {
+
     div {
         text-align: center;
     }
